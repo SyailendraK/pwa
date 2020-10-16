@@ -1,0 +1,115 @@
+#content {
+    height: fit-content;
+}
+
+#judul {
+    text-align: center;
+}
+
+#judul h1,
+p {
+    font-weight: 400 !important;
+    text-shadow: azure 2px 2px 5px;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+    height: 140px !important;
+    padding-top: 0px !important;
+    background-image: url("./../img/header-bg.jpg") !important;
+    background-size: contain;
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    margin-top: 15px;
+    border-radius: 55% 20px 20px 55% !important;
+    box-shadow: white 5px 5px 30px;
+    padding-bottom: 0px;
+    transition: ease-in-out 0.3s !important;
+}
+
+.card img {
+    margin-left: -3px;
+    transition: ease-in-out 0.3s !important;
+}
+
+.card:hover {
+    margin-top: 15px;
+    border-radius: 20px !important;
+    box-shadow: white 5px 5px 30px;
+}
+
+.card:hover img {
+    margin-left: 3px !important;
+    transform: scale(0.75);
+}
+
+.card-kanan {
+    border-radius: 20px 55% 55% 20px !important;
+    box-shadow: white 5px 5px 30px;
+}
+
+.card-kanan img {
+    margin-left: 3px;
+}
+
+.card-kanan:hover img {
+    margin-left: -3px !important;
+}
+
+#sect-detail {
+    margin-top: 0px;
+}
+
+#country {
+    width: 30vw !important;
+    margin: auto;
+    position: relative;
+    left: 90%;
+}
+
+sup {
+    color: red;
+}
+
+@media screen and (min-width: 1300px) {
+    #content {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card img {
+        transform: scale(0.75);
+    }
+
+    .jumbotron {
+        height: 110px !important;
+    }
+
+    #judul h1 {
+        font-size: 1.7rem !important;
+        font-weight: 900;
+    }
+
+    #judul p {
+        font-size: 1rem !important;
+    }
+
+    #country {
+        width: 50vw !important;
+        left: 40%;
+    }
+
+    .card {
+        border-radius: 20px !important;
+        text-align: center;
+    }
+
+}

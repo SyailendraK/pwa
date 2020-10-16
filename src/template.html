@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container" id="judul">
+                    <h1 class="display-4">Update Covid-19 di Dunia</h1>
+                    <p class="lead">"Mari kita menjadi pahlawan dengan diam di rumah, selamat bersama"</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="bg-info" id="content">
+            <div class="container">
+                <select-negara></select-negara>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3 bg-light" data-aos="flip-up" data-aos-duration="500">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="img/icon-case.png" class="card-img icon" alt="icon-case">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body mobile-float">
+                                        <h4 class="card-title">Total Kasus</h4>
+                                        <h4 class="card-text" id="data-case">This is</h4>
+                                        <p class="card-text"><small class="text-muted update">Last updated 3 mins
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-3 bg-light card-kanan" data-aos="flip-up" data-aos-duration="500">
+                            <div class="row no-gutters">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Total Sembuh</h4>
+                                        <h4 class="card-text" id="data-recovered">This is</h4>
+                                        <p class="card-text"><small class="text-muted update">Last updated 3 mins
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="img/icon-recovered.png" class="card-img icon" alt="icon-recovered">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3 bg-light" data-aos="flip-up" data-aos-duration="500">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="img/icon-death.png" class="card-img icon" alt="icon-death">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body mobile-float">
+                                        <h4 class="card-title">Total Meninggal</h4>
+                                        <h4 class="card-text" id="data-death">This is</h4>
+                                        <p class="card-text"><small class="text-muted update">Last updated 3 mins
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-3 bg-light card-kanan" data-aos="flip-up" data-aos-duration="500">
+                            <div class="row no-gutters">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Total Kasus Aktif</h4>
+                                        <h4 class="card-text" id="data-active">This is</h4>
+                                        <p class="card-text"><small class="text-muted update">Last updated 3 mins
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="img/icon-active.png" class="card-img icon" alt="icon-active">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+<!-- <script src="./dist/bundle.js"></script> -->
+
+</html>
